@@ -29,7 +29,7 @@ app.post('/post', function(req, res){
 
       var body = {
         response_type: "in_channel",
-        text: first_url
+        text: first_url + "new text"
       };
 
       res.send(body);
